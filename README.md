@@ -1,7 +1,29 @@
-
 <h1>miniENCODE Analysis Pipeline</h1>
 
-[TOC]
+- [miniENCODE Analysis Pipeline](#miniencode-analysis-pipeline)
+- [Introduction](#introduction)
+- [Setup and Installation](#setup-and-installation)
+  - [Docker Environment](#docker-environment)
+  - [Scripts and Demonstration Files](#scripts-and-demonstration-files)
+  - [Running the Docker Container](#running-the-docker-container)
+- [Data Analysis](#data-analysis)
+  - [Data Download and Preprocessing](#data-download-and-preprocessing)
+  - [Data Processing](#data-processing)
+    - [Generating the Genome Reference](#generating-the-genome-reference)
+    - [RNA-seq](#rna-seq)
+    - [ATAC-seq](#atac-seq)
+    - [ChIP-seq](#chip-seq)
+    - [BS-seq](#bs-seq)
+  - [Integrative Analysis](#integrative-analysis)
+    - [Define ELS (Enhancer-Like Signature)](#define-els-enhancer-like-signature)
+    - [Super Enhancer Prediction](#super-enhancer-prediction)
+    - [Gene Regulatory Network (GRN) Prediction](#gene-regulatory-network-grn-prediction)
+- [Data Visualization: miniODP](#data-visualization-miniodp)
+  - [Genome Browser: JBrowse](#genome-browser-jbrowse)
+  - [Gene Browser: Shiny](#gene-browser-shiny)
+  - [Sequence Search: SequenceServer](#sequence-search-sequenceserver)
+- [Links and Citation](#links-and-citation)
+
 
 # Introduction
 
