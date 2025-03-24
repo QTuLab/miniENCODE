@@ -1,6 +1,5 @@
 <h1>miniENCODE Analysis Pipeline</h1>
 
-- [miniENCODE Analysis Pipeline](#miniencode-analysis-pipeline)
 - [Introduction](#introduction)
 - [Setup and Installation](#setup-and-installation)
   - [Docker Environment](#docker-environment)
@@ -71,7 +70,7 @@ Docker creates isolated environments (containers) for applications, promoting co
 **Download Demo Files**:
 - Analysis data: 
   - part1 (3.8GB), from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data1.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DYBv6y8QhuDnCBj7-a0FIAA) (MD5 Checksum: `de16dbe53e2a74135ed72846dffc9b3b`)
-  - part2 (4.6GB), from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data2.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DUOUViIQhuDnCBj9-a0FIAA) (MD5 Checksum: `d5b8d6b96431a8ea10265e3752f65fdb`)
+  - part2 (4.6GB), from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data2.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DUOUViIQhuDnCBj9-a0FIAA) (MD5 Checksum: `b358ac53e456f9e5de077db9aa072907`)
 
 - Visualization files (miniODP): 
   - from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/miniODP.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DVYxz0YQhuDnCBje9q0FIAA) (MD5 Checksum: `01156a353c7a1acfd5838e52363e4bac`)
@@ -97,7 +96,7 @@ After downloading, place these files in their respective directories within the 
    docker run -it -v $MiniENCODE_PATH:/mnt/miniENCODE \
       -p 80:80 -p 3838:3838 -p 4040:4040 qtulab/miniencode
    # in the container, run the command:
-   /bin/bash /mnt/miniENCODE/miniODP/start_docker_service.sh
+   /bin/bash /mnt/miniENCODE/scripts/miniENCODE_start_docker_service.sh
    ```
 
 Access the services at: `http://<docker-ip>/miniodp`
