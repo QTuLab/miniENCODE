@@ -68,12 +68,11 @@ Docker creates isolated environments (containers) for applications, promoting co
    ```
 
 **Download Demo Files**:
-- Analysis data: 
-  - part1 (3.8GB), from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data1.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DYBv6y8QhuDnCBj7-a0FIAA) (MD5 Checksum: `de16dbe53e2a74135ed72846dffc9b3b`)
-  - part2 (4.6GB), from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data2.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DUOUViIQhuDnCBj9-a0FIAA) (MD5 Checksum: `b358ac53e456f9e5de077db9aa072907`)
+- Analysis data (8.4G): 
+  - from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/data.tar.gz) or [Figshare](https://www.doi.org/10.6084/m9.figshare.28659470), MD5 Checksum: `5d3ba62528179cbcbafbe7e88454d619`.
 
 - Visualization files (miniODP): 
-  - from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/miniODP.tar.gz) or [Cloud Disk](https://www.jianguoyun.com/p/DVYxz0YQhuDnCBje9q0FIAA) (MD5 Checksum: `01156a353c7a1acfd5838e52363e4bac`)
+  - from [Tu Lab](https://tulab.genetics.ac.cn/~qtu/miniENCODE/miniODP.tar.gz) or [Figshare](https://www.doi.org/10.6084/m9.figshare.28659326), MD5 Checksum: `01156a353c7a1acfd5838e52363e4bac`.
 
 After downloading, place these files in their respective directories within the cloned repository.
 
