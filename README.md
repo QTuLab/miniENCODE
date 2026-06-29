@@ -1,5 +1,17 @@
-<h1>miniENCODE Analysis Pipeline</h1>
+# miniENCODE (Legacy Repository)
 
+This repository is archived and kept for historical reference.
+
+Active development has moved to [miniODP](https://github.com/QTuLab/miniodp), which is now the main open-source framework for multi-omics portal construction, data integration, and species-specific deployment.
+
+Please use the miniODP repository for current code, documentation, deployment instructions, and future updates.
+
+## Legacy Scope
+
+This miniENCODE repository reflects the earlier public release centered on workflow scripts and Docker packaging. It is no longer maintained as the active project home.
+
+----------
+  
 - [Introduction](#introduction)
 - [Setup and Installation](#setup-and-installation)
   - [Docker Environment](#docker-environment)
